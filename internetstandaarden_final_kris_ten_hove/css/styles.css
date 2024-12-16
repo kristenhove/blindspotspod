@@ -1,0 +1,139 @@
+body {
+    background-color: #242429;
+    font-family: sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #135e51;
+}
+
+header img {
+    width: 100px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+header p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav a {
+    color: #13CA91;
+    background-color: #242429;
+    border: #13CA91;
+    padding: 1em;
+    transition-delay: 0.5s;
+}
+
+nav a:hover {
+    background-color: white;
+
+}
+
+nav a:active {
+    background-color: pink;
+}
+
+nav a:focus {
+    background-color: #135e51;
+}
+
+h2 {
+    color: #13CA91;
+    text-align: center;
+
+}
+
+main img {
+    width: 400px;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    border: #135e51;
+    border-style: dashed;
+    padding: 5em;
+    padding-bottom: 10em;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5em;
+
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5em;
+    border: #135e51;
+    border-style: dashed;
+    padding: 5em;
+    background-color: #135e51;
+    flex-direction: column;
+}
+
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.aboutbs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutceren {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutscott {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutkris {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #135e51;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer img {
+    width: 40px;
+
+
+}
+
+footer a.youtube img {
+    width: 80px
+}
